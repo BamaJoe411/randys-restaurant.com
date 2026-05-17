@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            max-width: 500px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .domain {
+            font-weight: bold;
+            color: #0077cc;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome!</h1>
+
+        <p>
+            The domain
+            <span class="domain">randys-restaurant.com</span>
+            has been registered successfully.
+        </p>
+
+        <p>
+            This site is currently parked. Are you the owner of Randy's Restaurant? Please use the contact link below.
+        </p>
+
+        <p>
+            Contact:
+            <script>
+            // <![CDATA[
+            var user = "info";
+            var domain = "randys-restaurant.com";
+            document.write('<a href="mailto:' + user + '@' + domain + '">Email Us</a>');
+            // ]]>
+            </script>
+        </p>
+
+        <footer>
+        </footer>
+    </div>
+
+</body>
+</html>
